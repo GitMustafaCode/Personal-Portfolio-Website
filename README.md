@@ -1,4 +1,4 @@
-# Abaan Khan — Engineering Portfolio
+# Mustafa Shahid — Engineering Portfolio
 
 Welcome to my personal portfolio website!  
 This site showcases my technical projects, engineering experience, and skills in embedded systems, FPGA development, digital design, and software engineering.
