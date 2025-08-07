@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This site showcases my technical projects, engineering experience, and skills in embedded systems, FPGA development, digital design, and software engineering.
 
-🚀 **Live Website**: [Click to view](https://gitmustafacode.github.io/Personal-Portfolio-Website/)
+🚀 **Live Website**: <a href="https://gitmustafacode.github.io/Personal-Portfolio-Website/" target="_blank">Click to view</a>
 
 ---
 
