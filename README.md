@@ -19,10 +19,7 @@ This site showcases my technical projects, engineering experience, and skills in
 
 ## 🛠️ Built With
 
-- **HTML5 / CSS3** — Semantic and responsive layout  
-- **JavaScript** — Interactive animations and effects  
-- **VanillaTilt.js** — 3D tilt hover effects on projects  
-- **Particles.js** — Dynamic background particle animation  
+- **HTML5 / CSS3** — Semantic and responsive layout   
 - **Custom CSS Styling** — Glowing panels, overlays, and smooth transitions  
 
 ---
