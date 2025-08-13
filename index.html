@@ -1,0 +1,324 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intiail-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fb95b37f2b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Electrical Engineer</p>
+                <h1>Hi, I'm <span>Mustafa</span><br> Shahid From Canada</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------about-------------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                 <img src="images/IMG_2000.jpg">   
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m a fourth-year Electrical Engineering student at McMaster University with a strong interest in power systems, electrical power generation, and embedded hardware. Through internships and projects, I’ve worked on low-voltage power distribution, system simulations, and hardware prototyping using tools like Power BI, MATLAB, and Verilog. I enjoy applying technical skills to real-world challenges—whether it’s optimizing energy systems or designing embedded solutions that bridge software and hardware.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('Extra-curriculars')">Extra-curriculars</p>
+                        <p></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Design/Hardware</span><br>CAD (Autodesk Inventor), PCB Design, 3D Printing, Microcontrollers (Arduino, Raspberry Pi), Verilog, Soldering</li>
+                            <li><span>Electrical Analysis</span><br>Circuit design, testing, troubleshooting, Power BI, Microsoft Access, LTSpice, PSpice</li>
+                            <li><span>Programming</span><br>Python, C, C++, MATLAB</li>
+                            <li><span>Collaboration</span><br>Teamwork, Project Coordination, Vendor Communication, Organization</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2024 – August 2024</span><br>Assistant Technologist at ISDN Technologies Inc </li>
+                            <li><span>May 2023 – August 2023</span><br>Electrical Engineering Support Intern at E2G Energy Services Inc </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Autonomous Electric Vehicle System</span><br>Built and programmed a 1/10th scale autonomous car using ROS, Jetson Nano, and LiDAR. Developed real-time navigation, mapping, and obstacle avoidance using Python and C++.</li>
+                            <li><span>Heal-AI</span><br>Created an AI tool that analyzes physical injuries and recommends treatments using Python and machine learning. Achieved 80% accuracy and won the Best Health Hack award at MacHacks 3.</li>
+                            <li><span>Embedded LiDAR Measurement System</span><br>Designed a 3D-printed rotary mechanism with a time-of-flight sensor to capture 360° spatial data. Used microcontrollers to process measurements for 3D mapping.</li>
+                            <li><span>Snake Game</span><br>Built a classic Snake Game using Object-Oriented Programming in C/C++. Integrated advanced data structures like doubly linked lists, stacks, queues, binary search trees, and hashing to enhance code efficiency and game performance.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Extra-curriculars">
+                        <ul>
+                            <li>
+                                <span>
+                                    Community Team Member at 
+                                    <a href="https://gdscmcmasteru.ca/" target="_blank">Google Developer Group</a> 
+                                    (Sep 2023 - Present)
+                                </span><br>
+                                Assisted in planning and executing technical workshops and challenges, contributing to a collaborative learning environment.
+                            </li>
+
+                            <li>
+                                <span>
+                                    ECE Ambassador at 
+                                    <a href="https://www.eng.mcmaster.ca/ece/resources/undergraduate-ece-ambassadors/#:~:text=The%20ECE%20Department%20is%20now%20accepting%20applications%20for,department%20at%20various%20faculty%20and%20department%20run%20events." target="_blank"> Faculty Of Engineering</a>
+                                    (Sep 2024 - April 2025)
+                                </span><br>
+                                Represented the ECE department at recruitment events and led campus tours to support student outreach and engagement.
+                            </li>
+
+                            <li>
+                                <span>
+                                    Outreach Team Member at 
+                                    <a href="https://www.mcmasterdesignleague.com/" target="_blank">McMaster Design League</a> 
+                                    (Sep 2023 – April 2024)
+                                </span><br>
+                                Coordinated the CAD Designathon, applying organizational and design skills to foster innovation in design.
+                            </li>
+                    
+                            <li>
+                                <span>
+                                    2nd Year Rep at 
+                                    <a href="https://www.linkedin.com/company/mcmaster-eces/posts/?feedView=all" target="_blank">McMaster Electrical and Computer Engineering Society</a> 
+                                    (Sep 2023 – April 2024)
+                                </span><br>
+                                Organized academic review sessions and coordinated events to enhance student-faculty interaction and peer support.
+                            </li>
+                    
+                    
+                            <li>
+                                <span>
+                                    Spark Ambassador at 
+                                    <a href="https://msumcmaster.ca/services-directory/1-spark/" target="_blank">McMaster Students Union</a> 
+                                    (Sep 2022 - Dec 2022)
+                                </span><br>
+                                Represented the ECE department at recruitment events and led campus tours to support student outreach and engagement.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------experience------------ -->
+    <div id="Experience">
+        <div class="container">
+            <h1 class="sub-title">My Experience</h1>
+            <div class= "experience-list">
+                <div>
+                    <i class="fa-solid fa-wrench"></i>
+                    <h2>Assistant Technologist  </h2>
+                    <p>ISDN Technologies Inc </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    <h2>Electrical Engineering Support Intern </h2>
+                    <p>E2G Energy Services Inc.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!----------projects ---------- --->
+    <!-- ---------- Projects ---------- -->
+<!-- ---------- Projects ---------- -->
+<div id="Projects">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+  
+      <div class="project-list">
+        <!-- First 3 projects always shown -->
+        <div class="project">
+          <img src="images/spatial mapping system.png">
+          <div class="layer">
+            <h3>Spatial Mapping System</h3>
+            <p>Developed a 3D spatial scanner using a ARM Cortex-M4F microcontroller, stepper motor and ToF sensor. Used embedded C for scanning and Python for data processing and 3D visualization.</p>
+            <a href="https://github.com/GitMustafaCode/Spatial-Mapping-System"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        
+        <div class="project">
+          <img src="images/AEV.png">
+          <div class="layer">
+            <h3>Autonomous Electric Vehicle</h3>
+            <p>Developed a 1/10th scale self-driving electric vehicle using ROS, Jetson Nano, and LiDAR. Integrated real-time mapping and localization by fusing LiDAR, IMU, and odometry data. Designed path tracking and obstacle avoidance controllers using Python and C++.</p>
+            <a href="https://github.com/GitMustafaCode/Autonomous-Electric-Vehicle-System/tree/main"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+  
+        <div class="project">
+          <img src="images/thumbnail for machacks.jpeg">
+          <div class="layer">
+            <h3>HealAI – AI-Powered Medical Tool</h3>
+            <p>Developed an AI-based tool that analyzes physical injuries and suggests treatments using Python and Scikit-learn. Achieved 80% accuracy in symptom analysis, showcasing practical applications of machine learning in healthcare.</p>
+            <a href="https://github.com/GitMustafaCode/HealAI_MacHack2023"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+  
+        <!-- Hidden Projects -->
+        <div class="project hidden-project">
+          <img src="images/Snake Game.png">
+          <div class="layer">
+            <h3>Classic Snake Game</h3>
+            <p>Created a C++ console-based Snake game using Object Oriented Programming principles. Focused on clean logic structure and game performance.</p>
+            <a href="https://github.com/GitMustafaCode/classic-snake-game/tree/main"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+  
+        <div class="project hidden-project">
+          <img src="images/XOR Gate.png">
+          <div class="layer">
+            <h3>MOSFET Based XOR Gate</h3>
+            <p>Built an XOR logic gate using discrete NMOS/PMOS components demonstrating transistor-level design. Analyzed behavior and propagation through circuit simulation.</p>
+            <a href="https://github.com/GitMustafaCode/mosfet-xor-gate"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+  
+        <div class="project hidden-project">
+          <img src="images/Voice Rover.png">
+          <div class="layer">
+            <h3>Voice Rover</h3>
+            <p>Building a Bluetooth-enabled robot with one of the most user-intuitive iOS app for ESP32 Low-Energy Bluetooth. Implementing autonomous obstacle avoidance using LiDAR/ToF.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Toggle Button -->
+      <a href="#" class="btn" id="toggle-btn">See more</a>
+    </div>
+  </div>
+  
+
+    <!---------------contact--------- --->
+    <div id="contact">
+        <div class="containe">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> m04shahid@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 647-403 6568</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mustafa-shahid-professional/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://github.com/GitMustafaCode"><i class="fa-solid fa-code-compare"></i></a>
+                    </div>
+                    <a href="images/Mustafa_Shahid_Resume.pdf" download class="btn btn2"> Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Mustafa Shahid. Made by <i class="fa-solid fa-plug"></i> Engineer  </p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const toggleBtn = document.getElementById("toggle-btn");
+    const hiddenProjects = document.querySelectorAll(".hidden-project");
+  
+    let isExpanded = false;
+  
+    toggleBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      isExpanded = !isExpanded;
+  
+      hiddenProjects.forEach(project => {
+        project.style.display = isExpanded ? "block" : "none";
+      });
+  
+      toggleBtn.textContent = isExpanded ? "See less" : "See more";
+    });
+  </script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxLmjWFlB54HkBLaabtgufJA7K5MrWRzC303ZgCWx5IYF9_Na8wSyhFTsRBaioNqGpM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+    </body>
+    </html>
