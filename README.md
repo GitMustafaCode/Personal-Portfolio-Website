@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This site showcases my technical projects, engineering experience, and skills in embedded systems, power systems, digital design, and software engineering.
 
-🚀 **Live Website**: [Click to view](https://gitmustafacode.github.io/Personal-Portfolio-Website/)
+🚀 **Live Website**: [Click to view](https://mustafashahid.com/)
 
 ---
 
